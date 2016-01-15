@@ -1,5 +1,5 @@
 # 1.ベースイメージの取得
-FROM centos:latest
+FROM centos:6
 
 # 2.作成者情報
 MAINTAINER 0.1 asashiho@mail.asa.yokohama
