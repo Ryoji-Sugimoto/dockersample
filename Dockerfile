@@ -5,6 +5,7 @@ FROM centos:latest
 MAINTAINER 0.1 asashiho@mail.asa.yokohama
 
 # 3.Apache HTTP Serverのインストール
+RUN yum -y update
 RUN yum -y install httpd
 
 # 4.Webコンテンツの配置
